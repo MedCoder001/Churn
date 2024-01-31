@@ -37,41 +37,11 @@ Customer churn prediction is a crucial task for businesses, especially in the te
    - Converted 'Yes' and 'No' to 1 and 0.
    - Performed one-hot encoding for categorical columns.
    - Scaled numerical features using Min-Max scaling.
-5. Did Train-Test Split:
-   - Split the data into training and testing sets.
-
-   ```python
-   from sklearn.model_selection import train_test_split
-   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=5)
-   ```
-
-6. Build and Train the Model:
-   - Build an ANN using TensorFlow/Keras.
-
-   ```python
-   # Code for building and training the model
-   ```
-
-7. Evaluate the Model:
-   - Evaluate the model on the test set and print classification report.
-
-   ```python
-   # Code for evaluating the model
-   ```
-
-8. Visualize Confusion Matrix:
-   - Visualize the confusion matrix using seaborn.
-
-   ```python
-   # Code for visualizing the confusion matrix
-   ```
-
-9. Model Performance Metrics:
-   - Calculate accuracy, precision, recall, and F1-score.
-
-   ```python
-   # Code for calculating performance metrics
-   ```
+5. Did Train-Test Split
+6. Built and trained an ANN model using TensorFlow/Keras.
+7. Evaluated the model on the test set and printed classification report.
+8. Visualized the confusion matrix using seaborn.
+9. Checked the model performance using accuracy, precision, recall, and F1-score metrics.
 
 ## Conclusion
 This project demonstrates the use of an Artificial Neural Network for customer churn prediction. The model achieved a certain level of accuracy and provides insights into the precision, recall, and F1-score for both churned and non-churned customers. Further fine-tuning and optimization can be performed to enhance the model's predictive capabilities.
